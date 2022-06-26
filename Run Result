@@ -1,0 +1,54 @@
+Dataset: Adenoma.txt
+FOne.shape: (36, 29), FTwo.shape: (36, 2)
+mAcc1: 1.0, mAcc2: 1.0
+Dataset: ALL1.txt
+FOne.shape: (128, 156), FTwo.shape: (128, 1)
+mAcc1: 1.0, mAcc2: 1.0
+Dataset: ALL2.txt
+FOne.shape: (100, 33), FTwo.shape: (100, 2)
+mAcc1: 0.76, mAcc2: 0.78
+Dataset: ALL3.txt
+FOne.shape: (125, 28), FTwo.shape: (125, 5)
+mAcc1: 0.8320000000000001, mAcc2: 0.8720000000000001
+Dataset: ALL4.txt
+FOne.shape: (93, 44), FTwo.shape: (93, 2)
+mAcc1: 0.9257309941520468, mAcc2: 0.9257309941520468
+Dataset: CNS.txt
+FOne.shape: (60, 34), FTwo.shape: (60, 4)
+mAcc1: 0.7833333333333333, mAcc2: 0.8
+Dataset: Colon.txt
+FOne.shape: (62, 19), FTwo.shape: (62, 6)
+mAcc1: 0.9166666666666667, mAcc2: 0.9346153846153846
+Dataset: DLBCL.txt
+FOne.shape: (77, 43), FTwo.shape: (77, 4)
+mAcc1: 0.9608333333333334, mAcc2: 0.9475
+Dataset: Gastric.txt
+FOne.shape: (65, 60), FTwo.shape: (65, 3)
+mAcc1: 0.9538461538461538, mAcc2: 0.9846153846153847
+Dataset: Gastric1.txt
+`FOne.shape: (144, 164), FTwo.shape: (144, 4)
+mAcc1: 0.9645320197044335, mAcc2: 0.9573891625615764
+Dataset: Gastric2.txt
+FOne.shape: (124, 156), FTwo.shape: (124, 2)
+mAcc1: 0.992, mAcc2: 1.0
+Dataset: GSE9574.txt
+FOne.shape: (29, 1), FTwo.shape: (29, 1)
+mAcc1: 0.9666666666666668, mAcc2: 0.9666666666666668
+Dataset: Leukaemia.txt
+FOne.shape: (72, 41), FTwo.shape: (72, 2)
+mAcc1: 1.0, mAcc2: 1.0
+Dataset: Lymphoma.txt
+FOne.shape: (45, 41), FTwo.shape: (45, 4)
+mAcc1: 1.0, mAcc2: 1.0
+Dataset: Myeloma.txt
+FOne.shape: (173, 46), FTwo.shape: (173, 7)
+mAcc1: 0.7882352941176471, mAcc2: 0.8
+Dataset: Prostate.txt
+FOne.shape: (102, 49), FTwo.shape: (102, 3)
+mAcc1: 0.9609523809523809, mAcc2: 0.9204761904761904
+Dataset: Stroke.txt
+FOne.shape: (40, 117), FTwo.shape: (40, 1)
+mAcc1: 0.875, mAcc2: 0.775
+Dataset: T1D.txt
+FOne.shape: (101, 112), FTwo.shape: (101, 6)
+mAcc1: 0.8014285714285714, mAcc2: 0.7433333333333334
