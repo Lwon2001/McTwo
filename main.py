@@ -12,10 +12,10 @@ from sklearn.model_selection import KFold
 
 def evaluation(X, y):
     """
-    评估选出的特征集
+    评估选出的特征集，将筛选出的特征用于训练SVM,NBayes,Dtree,NN四种模型来进行评估，返回四种模型中的最大acc值
     :x data
     :y label
-    评估策略：5折交叉验证，将数据放入SVM,NBayes,Dtree,NN中训练
+    验证策略：5折交叉验证
     """
     y = y.astype('int')
     kf = KFold(n_splits=5)
@@ -45,8 +45,9 @@ if __name__ == '__main__':
 
         FOne = McOne(features, label, 0.2)
         FTwo = McTwo(FOne, label)
-        print(f'FOne.shape: {FOne.shape}, FTwo.shape: {FTwo.shape}')
+        print(f'FeatureOne.shape: {FOne.shape}, FetureTwo.shape: {FTwo.shape}')
 
         mAcc1 = evaluation(FOne, label)
         mAcc2 = evaluation(FTwo, label)
-        print(f'mAcc1: {mAcc1}, mAcc2: {mAcc2}')
+        print(f'MCOne.Acc: {mAcc1}, MCTwo.Acc: {mAcc2}')
+        print("\n")
